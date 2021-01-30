@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(155 155 200 / 64%);
+}
+.calculator-casing{
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgba(30, 73, 90, 0.418);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 128, 128, 0.719);
+}
+.calculator-body{
+    width: 98%;
+    height: 98%;
+    border: 1px solid rgba(2, 79, 114, 0.198);
+    border-radius: 3px;
+    margin:3px auto;
+    background-color: #bceaeb;
+}
+.calculator-subScreen{
+    height: 70px;
+    width: 92%;
+    background-color: rgba(83, 82, 82, 0.26);
+    margin: auto;
+    /* border: 1px solid rgba(0, 128, 128, 0.719); */
+    border-radius: 10px;
+}
+.calculator-screen{
+    height: 57px;
+    width: 95%;
+    background-color: #fff;
+    
+    margin-top: 40px;
+    border: 1px solid rgba(0, 128, 128, 0.719);
+    border-radius: 10px;
+    
+    margin:3px 3px;
+    cursor: default;
+}
+.calculator-head{
+    margin-bottom: 25px;
+}
+.calculatorHead-text{
+    margin-top: 10px ;
+    display: block;
+    padding: 15px;
+}
+.calculator-BtnBody{
+    height: 365px;
+    background-color: rgba(0, 0, 0, 0.103);
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+
+button {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'BulletNumbersW90-SansNeg';
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(75, 43, 2, 0.65);
+    color: white;
+}
+input {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'BulletNumbersW90-SansNeg';
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(75, 43, 2, 0.65);
+    color: white;
+}
+.operator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 30px;
+}
+.display-font{
+    font-size: 30px; text-align: right;color: rgb(109, 43, 43);  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
